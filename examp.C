@@ -35,7 +35,7 @@
 void examp(){
 
   //final validation 3T all cuts //before correction
-  TFile *f0 = new TFile ("after_quantilecuts/20230228_3T_2018UL_Mtop140_FullBRew_finalresultallfit/listinput2018ULData.root","read");
+  TFile *f0 = new TFile ("before_correction/20230228_3T_2018UL_Mtop140_FullBRew_finalresultallfit/listinput2018ULData.root","read");
 
   //final validation 3T all cuts //after correction and MERGEDBINS//26 MART
   TFile *fM  = new TFile ("data/MergedBins500/20230325_3T_2018UL_Mtop140_FullBRew_Merged_3T_validation/listinput2018ULData.root","read");

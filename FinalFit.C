@@ -35,7 +35,7 @@ void FinalFit(){
   //====================================================================================================================//
   /* AFTER quantile BEFORE merged bins correction */
   //====================================================================================================================//
-  TFile *f0 = new TFile ("after_quantilecuts/20230228_3T_2018UL_Mtop140_FullBRew_finalresultallfit/listinput2018ULData.root","read");
+  TFile *f0 = new TFile ("before_correction/20230228_3T_2018UL_Mtop140_FullBRew_finalresultallfit/listinput2018ULData.root","read");
 
   //====================================================================================================================//
   /*AFTER quantile and MergedBins correction */
